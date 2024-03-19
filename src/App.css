@@ -1,0 +1,54 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+
+.container{
+  
+  max-width: 1000px;
+  max-height: 100vh;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+/* titeln*/
+h1 {
+  text-align: center;
+}
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card{
+  width: 300px;
+  margin: 10px;
+}
+
+.card-image{
+  width: 100%;
+}
+
+.card-body{
+  padding: 10px;
+  text-align: center;
+
+}
+
+.category {
+  color: #a1a1a1;
+}
+
+a{
+  background-color: #ffba5a;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
